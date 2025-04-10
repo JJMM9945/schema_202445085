@@ -1,0 +1,14 @@
+alter table 사원 rename to empolyees;
+ALTER TABLE empolyees RENAME COLUMN 사원번호 TO employeenumber ;
+ALTER TABLE empolyees RENAME COLUMN 이름 TO employeename;
+ALTER TABLE empolyees RENAME COLUMN 영문이름 TO englishname;
+ALTER TABLE empolyees RENAME COLUMN 직위 TO position;
+ALTER TABLE empolyees RENAME COLUMN 성별 TO gender;
+ALTER TABLE empolyees RENAME COLUMN 생일 TO birthday;
+ALTER TABLE empolyees RENAME COLUMN 입사일 TO joincompany;
+ALTER TABLE empolyees RENAME COLUMN 주소 TO address;
+ALTER TABLE empolyees RENAME COLUMN 도시 TO city;
+ALTER TABLE empolyees RENAME COLUMN 지역 TO area;
+ALTER TABLE empolyees RENAME COLUMN 집전화 TO homenumber;
+ALTER TABLE empolyees RENAME COLUMN 상사번호 TO bossnumber;
+ALTER TABLE empolyees RENAME COLUMN 부서번호 TO departmentnumber;
