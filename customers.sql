@@ -1,0 +1,10 @@
+alter table 고객 rename to customers;
+ALTER TABLE customers RENAME COLUMN 고객번호 TO customersNumber;
+ALTER TABLE customers RENAME COLUMN 고객회사명 TO customerscompany;
+ALTER TABLE customers RENAME COLUMN 담당자명 to manager;
+ALTER TABLE customers RENAME COLUMN 담당자직위 to managerposition;
+ALTER TABLE customers RENAME COLUMN 주소 to address;
+ALTER TABLE customers RENAME COLUMN 도시 to city;
+ALTER TABLE customers RENAME COLUMN 지역 to area;
+ALTER TABLE customers RENAME COLUMN 전화번호 to phonenumber;
+ALTER TABLE customers RENAME COLUMN 마일리지 to mileage;
